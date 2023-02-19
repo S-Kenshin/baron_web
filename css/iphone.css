@@ -1,0 +1,47 @@
+@media screen and (max-width:480px) {
+    .navbar h2 {
+        font-weight: bold;
+        padding: 10px 40px;
+        font-size: 18px;
+    }
+    .address a {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .navbar_address {
+        padding: 15px 0 5px 10px;
+        text-align: right;
+    }
+    .card-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .map_title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .map__info dt {
+        width: 70px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .map__info dd {
+        width: 200px;
+        font-size: 12px;
+    }
+    .table {
+        font-size: 10px;
+    }
+    .table td {
+        padding: 5px;
+    }
+    .service_menu {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .pc-br {
+        display: none;
+    }
+}

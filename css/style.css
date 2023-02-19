@@ -1,0 +1,319 @@
+/*=============================
+共通
+=============================*/
+
+body {
+  font-family: "Noto Serif JP", serif;
+}
+
+a {
+  color: #fff;
+}
+
+/*=============================
+index.html
+=============================*/
+
+.navbar {
+  background-color: #a19283;
+  color: #fff;
+}
+
+.navbar h2 {
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+.nav.nav-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  font-size: 15px;
+}
+
+.navbar_address {
+  padding: 15px 20px;
+}
+
+.navbar_address p {
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.bgimg-slider {
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.bgimg-slider::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.mainvisual_message p {
+  position: absolute;
+  color: #fff;
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  top: 40px;
+  left: 50px;
+}
+
+.card-header {
+  color: #fff;
+  background-color: #a19283;
+}
+
+.btn {
+  font-size: 15px;
+}
+
+.map__inner h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.map__iframe {
+  width: 800px;
+  max-width: 100%;
+  margin: 30px auto 0;
+}
+
+.map_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map__iframe-wrap {
+  width: 100%;
+  padding-top: 50%;
+  position: relative;
+}
+
+.map__iframe-wrap > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.map__info {
+  margin: 8px auto 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  max-width: 100%;
+}
+
+.map__info dt {
+  width: 104px;
+  font-weight: 700;
+}
+
+.map__info dd {
+  width: calc(100% - 118px);
+}
+
+.map__link {
+  text-align: center;
+  margin: 10px auto;
+}
+
+/*=============================
+price.html
+=============================*/
+
+.price_message {
+  margin-top: 30px;
+}
+
+.price_message h3 {
+  border-bottom: double 6px #a19283;
+}
+
+.price_table {
+  margin-bottom: 50px;
+}
+
+th {
+  background-color: #a19283;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.menu_type {
+  background-color: #d3c6b9;
+  text-align: center;
+}
+
+/*=============================
+room.html
+=============================*/
+
+.room_message {
+  margin-top: 30px;
+}
+
+.room_message h3 {
+  border-bottom: double 6px #a19283;
+}
+
+tr.item_name {
+  font-weight: bold;
+}
+
+.image-flex-4 img {
+  width: 200px;
+}
+
+.rank0 {
+  background-color: #a19283;
+  color: #fff;
+}
+
+.rank1 {
+  background-color: #a19283;
+  color: #fff;
+}
+
+.rank2 {
+  background-color: #a19283;
+  color: #fff;
+}
+
+.rank3 {
+  background-color: #a19283;
+  color: #fff;
+}
+
+.rank4 {
+  background-color: #a19283;
+  color: #fff;
+}
+
+.rank5 {
+  background-color: #a19283;
+  color: #fff;
+}
+
+.room-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.room-item {
+  width: 32%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.room-image img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.room-text p {
+  text-align: center;
+}
+
+/*=============================
+service.html
+=============================*/
+
+.service_message {
+  margin-top: 30px;
+}
+
+/*=============================
+food.html
+=============================*/
+
+.food_message {
+  margin-top: 30px;
+}
+
+.food_message h3 {
+  border-bottom: double 6px #a19283;
+}
+
+.menu ul {
+  width: 660px;
+}
+
+.menu ul li {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  width: 250px;
+  list-style-type: square;
+}
+
+.clear {
+  clear: both;
+}
+
+/*=============================
+access.html
+=============================*/
+
+.map__inner h2 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.service_message h3 {
+  border-bottom: double 6px #a19283;
+}
+
+/*=============================
+job.html
+=============================*/
+
+.job_message {
+  margin-top: 30px;
+}
+
+.job_message h3 {
+  border-bottom: double 6px #a19283;
+  margin-bottom: 20px;
+}
+
+.job-tel {
+  color: black;
+}
+
+.job_table {
+  margin-top: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
