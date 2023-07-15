@@ -1,0 +1,3 @@
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^(www\.)?[^.]+\.sakura\.ne\.jp$ [NC]
+RewriteRule .* https://baron-karatsu.info/%{REQUEST_URI} [R=301,L]
